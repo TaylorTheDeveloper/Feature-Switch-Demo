@@ -1,1 +1,14 @@
+.Net 8 C# Code for interation with Azure App Config Service
+
+Methodology:
+Beta switch is a master switch for all features
+Individual Features can be turned on or off, only affect experience if Beta switch is true.
+
+POC for Blazor App with Config + Feature Switches
+endpoint: tempfeatureswitch-f4gzf4dng6gtdwas.centralus-01.azurewebsites.net
+POC for API App 
+endpoints:
+https://tempfeatureswitchapi-ejbfaqhfdzhuc4dd.centralus-01.azurewebsites.net/api/feature/GetFeatureSwitches
+https://tempfeatureswitchapi-ejbfaqhfdzhuc4dd.centralus-01.azurewebsites.net/api/feature/GetBetaInfo
+https://tempfeatureswitchapi-ejbfaqhfdzhuc4dd.centralus-01.azurewebsites.net/api/feature/GetJournalInfo
 
