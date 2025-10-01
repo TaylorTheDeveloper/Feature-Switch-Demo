@@ -1,0 +1,13 @@
+﻿@page
+@model TestAppConfig.Pages.BetaModel
+@{
+    ViewData["Title"] = "Beta Page";
+}
+
+<h1>This is the beta website.</h1>
+
+<!-- Taylor: Different Way aside from <feature name="Beta"> helper, both do the same thing. -->
+@if (Model.WeatherCheckEnabled)
+{
+    <p>🌤️ Current (random) temp: <strong>@Model.TemperatureF°F</strong></p>
+}
